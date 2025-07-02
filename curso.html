@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+    <title>Senai hotsite</title>
+    <style>
+.tronco-do-site {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.cursos {
+  flex: 2; /* ocupa mais espaço à esquerda */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.img-cursos img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.texto-cursos {
+  margin: 10px;
+}
+
+.videos {
+  flex: 1; /* coluna da direita */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.videos iframe {
+  width: 40%;
+  height: 150px;
+  margin-left: 255PX;
+  
+}
+.SLOT{
+   display: flex;
+  flex-direction: row; /* imagem e texto lado a lado */
+  gap: 15px;
+  align-items: center;
+  background-color: #dfe0e0; /* só pra destacar (opcional) */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+</style>
+
+</head>
+<body>
+    <img src="/senai2.png" style="padding: 5px;">
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/index.html">home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">cursos</a>
+  </li>
+</ul><br>
+
+<div class="text-center">
+ <img src="/IMG-20250630-WA0028.jpg" class="img-fluid w-100 rounded" alt="Banner do SENAI">
+
+</div><br>
+<h1>NOSSOS CURSOS</h1><br>
+<div class="tronco-do-site"><br>
+   
+    <div class="cursos">
+
+      <div class="SLOT">
+       <div class="img-cursos">
+        <img src="/tec-ads.jpg" alt="" width="150" height="150">
+        </div>
+
+        <div class="texto-cursos">
+        <h3>TEC-DESENVOLVIMENTO DE SISTEMAS</h3>
+        <p>Descrição: Com a formação técnica em desenvolvimento de sistemas, você poderá acessar vagas de Desenvolvedor de software, Analista de suporte técnico, Programador de sistemas embarcados, e mais</p>
+        </div>
+      </div>
+
+       <div class="SLOT">
+         <div class="img-cursos">
+        <img src="/tec-infor.jpg" alt="" width="150" height="150">
+        </div>
+
+        <div class="texto-cursos">
+        <h3>TEC-INFORMATICA</h3>
+        <p>Descrição: Com a formação técnica em informática, você poderá acessar vagas deTécnico de suporte em TI, Instalador e mantenedor de redes, Assistente de desenvolvimento de sistemas, e mais</p>
+        </div>
+       </div>
+       
+        <div class="SLOT">
+         <div class="img-cursos">
+        <img src="/tec-eletro.jpg" alt="" width="150" height="150">
+        </div><BR>
+
+        <div class="texto-cursos">
+        <h3>TEC-ELETROTECNICA</h3>
+        <p>Descrição: Com a formação técnica em eletrotécnica, você poderá acessar vagas de Eletricista de instalações industriais, Técnico em projetos elétricos, Inspetor de manutenção elétrica, e mais</p>
+        </div>
+        </div>
+    </div>
+  <div class="videos">
+    
+    <iframe width="250" src="https://www.youtube.com/embed/HZ6-DtDAOdQ?si=QwOxbkWmGTyRvgTe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="250"  src="https://www.youtube.com/embed/KNRHzfLlTo4?si=JitRnpIX-ZA9mrB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="250" src="https://www.youtube.com/embed/guPxSN018LE?si=iH2ihUyjK36DNF85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="250" src="https://www.youtube.com/embed/lj-u8AHeKoU?si=BndJEjeVigakPYzV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="250" src="https://www.youtube.com/embed/TxwXKW5vyt0?si=C73fv1C9WloTbi9v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="250" src="https://www.youtube.com/embed/guPxSN018LE?si=illdEc3yP8aW3aJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+ 
+</div>
+
+
+</body>
+</html>

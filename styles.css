@@ -1,0 +1,27 @@
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    width:95%;
+    height: 215px;
+    
+}
+.tronco-do-site{
+    display: flex;
+    flex-direction: wrap;
+    gap: 10px;
+}
+h5, h1{
+    margin: 10px;
+}
+.videos iframe{
+     max-width: 100%;
+    
+}
+.GF img{
+    width: 115px;
+    height: 115px;
+    margin: 10px;
+}
